@@ -18,6 +18,15 @@ npm run serve
 npm run build
 ```
 
+### commit
+
+1. 使用 git commit 的方式会报错，因为引入了 husky git hooks 工具
+2. 必须使用 npm run commit 提交
+
+### prettier
+
+npm run prettier 可以直接格式化项目所有文件
+
 ### Lints and fixes files
 
 ```
